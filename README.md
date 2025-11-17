@@ -10,6 +10,12 @@ OS = ubuntu
 Release = jammy
 Architecture = arm64
 
+kemudian set apparmor
+nano /var/lib/lxc/lampp/config
+
+ubah bagian ini menjadi
+lxc.apparmor.profile = unconfined
+
 Setelah selesai, jalankan dengan cara
 lxc-start -n lampp -d
 
