@@ -20,5 +20,8 @@ Untuk menghapus container
 lxc-stop -n lampp
 lxc-destroy -n lampp
 
+Melihat daftar container
+lxc-ls
+
 
 
