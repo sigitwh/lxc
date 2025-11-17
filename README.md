@@ -1,5 +1,7 @@
 Cara install LXC di Debian.
+
 Semua perinta di sini berada di user root.
+
 Misalnya akan membuat container dengan nama lampp.
 
 lxc-create -n lampp -t download
